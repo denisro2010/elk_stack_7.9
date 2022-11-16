@@ -1,0 +1,4 @@
+- pipeline.id: elastic-rss
+  pipeline.batch.size: 125
+  path.config: "/usr/share/logstash/pipeline/logstash_http_poller.conf"
+  pipeline.workers: 1
